@@ -1,0 +1,31 @@
+#workGrid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+#skillsBar {
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-top: 100px;
+}
+
+
+#workContainer {
+  margin: 0;
+  width: 100%;
+  padding-bottom: 0px;
+}
+
+/*#experienceContainer {
+  padding-left: 0px;
+  padding-right: 0px;
+}*/
+
+#project6 {
+     top: 220px;
+}
+
+#back2 {
+height:60vh;
+}
