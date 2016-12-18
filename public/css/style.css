@@ -19,18 +19,31 @@
 }
 
 /*#experienceContainer {
-  padding-left: 0px;
-  padding-right: 0px;
+padding-left: 0px;
+padding-right: 0px;
 }*/
 
 #project6 {
-     top: 220px;
+  top: 220px;
 }
 
 #back2 {
-height:60vh;
+  height:60vh;
 }
 
 #about {
   background-image: url('background.jpg');
 }
+
+
+.social-icons2 {
+  width: 40px;
+  height 40px;
+  font-size: 16px;
+  color: #63656d;
+  list-style: none;
+}
+/*.social-icons2:hover {
+background-color: black;
+  color: white;
+}*/
