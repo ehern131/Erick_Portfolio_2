@@ -8,6 +8,7 @@
   margin-right: 40px;
   margin-left: 40px;
   padding-top: 100px;
+
 }
 
 
@@ -28,4 +29,8 @@
 
 #back2 {
 height:60vh;
+}
+
+#about {
+  background-image: url('background.jpg');
 }
