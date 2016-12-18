@@ -1,8 +1,12 @@
 #workGrid {
   padding-right: 0px;
   padding-left: 0px;
+background-color: white!important;
 }
 
+body {
+  background-color: white!important;
+}
 
 #skillsBar {
   margin-right: 40px;
@@ -11,6 +15,12 @@
 
 }
 
+h5{
+  color: #333 !important;
+}
+span {
+  color:#333 !important;
+}
 
 #workContainer {
   margin: 0;
@@ -18,6 +28,9 @@
   padding-bottom: 0px;
 }
 
+#footer {
+  background-color: white!important;
+}
 /*#experienceContainer {
 padding-left: 0px;
 padding-right: 0px;
