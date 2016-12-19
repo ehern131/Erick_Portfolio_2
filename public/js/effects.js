@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#project1').mouseenter(function() {
+  $('.work-overlay').mouseenter(function() {
     $(this).animate({
       height: '+=50px',
     });
