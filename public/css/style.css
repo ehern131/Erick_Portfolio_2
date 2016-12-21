@@ -62,3 +62,11 @@ padding-right: 0px;
 .col-sm-12 {
   padding: 0!important;
 }
+
+#viewWeb {
+  font-size: 13px !important;
+}
+
+#close {
+  font-size: 17px !important;
+}
