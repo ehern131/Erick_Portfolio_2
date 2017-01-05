@@ -74,3 +74,18 @@ padding-right: 0px;
 #contactBox {
   padding-top: 100px;
 }
+
+#project5, #project4, #project6{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+#project6 {
+  margin-left: 33.3%!important;
+}
+
+@media (max-width: 992px) {
+  #project6 {
+    margin-left: 0%!important;
+  }
+}
