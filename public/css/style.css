@@ -86,3 +86,10 @@ padding-right: 0px;
     margin-left: 0%!important;
   }
 }
+
+
+.workHeader {
+  line-height: 20%;
+  margin: 0 auto;
+  position: relative;
+}
