@@ -86,13 +86,29 @@ padding-right: 0px;
     margin-left: 0%!important;
     top: 425px!important;
   }
+  #workHeaderText {
+    font-size: 25px;
+  }
+}
+
+#workHeader {
+  height: 75px;
+  background-color: rgba(28,28,28,1);
 }
 
 
-.workHeader {
-  line-height: 20%;
-  margin: 0 auto;
-  position: relative;
+#workHeaderText {
+  font-family: Hind,sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  width: auto;
+  padding-top: 17px;
+  color: white;
+  line-height: 1.2;
+  margin-bottom: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 5%;
 }
 
 
@@ -104,4 +120,52 @@ padding-right: 0px;
 }
 .w3-badge {
   height:13px;width:13px;padding:0
+}
+
+/*WORK DROPDOWN*/
+
+#primary_nav_wrap li
+{
+  list-style-type: none;
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+#workList a {
+  color: white;
+}
+
+#workList li {
+  color: white;
 }
