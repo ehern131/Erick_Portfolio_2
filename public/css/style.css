@@ -100,7 +100,7 @@ padding-right: 0px;
 #workHeaderText {
   font-family: Hind,sans-serif;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 30px;
   width: auto;
   padding-top: 17px;
   color: white;
@@ -108,9 +108,26 @@ padding-right: 0px;
   margin-bottom: 0;
   padding-right: 15px;
   padding-left: 15px;
-  margin-left: 5%;
+  margin-left: 9%;
 }
 
+.carousel-inner {
+  height: 90vh;
+}
+
+.modal-content {
+  margin-top: 10%;
+}
+
+.glyphicon-chevron-left:before, .glyphicon-chevron-right:before {
+  color: white;
+}
+
+
+.screens{
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 .mySlides {
   display:none
@@ -131,35 +148,43 @@ padding-right: 0px;
 
 #primary_nav_wrap ul ul
 {
-	display:none;
-	position:absolute;
-	top:100%;
-	left:0;
-	padding:0
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  padding:0
 }
 
 #primary_nav_wrap ul ul li
 {
-	float:none;
-	width:200px
+  float:none;
+  width:200px
 }
 
 #primary_nav_wrap ul ul a
 {
-	line-height:120%;
-	padding:10px 15px
+  line-height:120%;
+  padding:10px 15px
 }
 
 
 #primary_nav_wrap ul ul ul
 {
-	top:0;
-	left:100%
+  top:0;
+  left:100%
 }
 
 #primary_nav_wrap ul li:hover > ul
 {
-	display:block
+  display:block;
+}
+
+#workList li:hover {
+  background-color: lightgray;
+}
+
+#workList li:hover {
+  background-color: lightgray;
 }
 
 #workList a {
