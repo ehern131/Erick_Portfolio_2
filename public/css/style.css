@@ -387,7 +387,7 @@ padding-right: 0px;
 }
 #progress{
   height:1px;
-  background:#fff;
+  background:rgba(0,0,0,0.8);
   position:absolute;
   width:0;                /* will be increased by JS */
   top:50%;
