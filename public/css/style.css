@@ -286,18 +286,21 @@ padding-right: 0px;
   .carousel-inner {
   height: 100%!important;
   }
+  .modal-lg {
+    width: 650px;
+  }
   .item {
-    height: 633px!important;
+    height: 500px!important;
   }
   .modal-dialog {
     top: 21%!important;
   }
   .modal-content {
-    margin-top: 23%!important;
+    margin-top: 0%!important;
     border-radius: 0px!important;
   }
   .carousel-caption {
-    height: 55px!important;
+    height: 73px!important;
     font-size: 24px;
     /*background-color: rgba(0, 0, 0, 0.5);*/
     color: #2A2A2A;
@@ -328,7 +331,7 @@ padding-right: 0px;
     top: 1%!important;
   }
   .modal-content {
-    margin-top: 0%!important;
+    margin-top: 1%!important;
     border-radius: 0px!important;
   }
   .carousel-caption {
@@ -371,4 +374,31 @@ padding-right: 0px;
     color: #2A2A2A;
     text-shadow: 0 1px 2px rgba(0,0,0,.3); */
   }
+}
+#overlay{
+  position:fixed;
+  z-index:99999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(0,0,0,0.9);
+  transition: 1s 0.4s;
+}
+#progress{
+  height:1px;
+  background:#fff;
+  position:absolute;
+  width:0;                /* will be increased by JS */
+  top:50%;
+}
+#progstat{
+  font-size:0.7em;
+  letter-spacing: 3px;
+  position:absolute;
+  top:50%;
+  margin-top:-40px;
+  width:100%;
+  text-align:center;
+  color:#fff;
 }
