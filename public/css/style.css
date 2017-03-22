@@ -328,10 +328,10 @@ padding-right: 0px;
     height: 770px!important;
   }
   .modal-dialog {
-    top: 1%!important;
+    top: 0%!important;
   }
   .modal-content {
-    margin-top: 1%!important;
+    margin-top: 0%!important;
     border-radius: 0px!important;
   }
   .carousel-caption {
