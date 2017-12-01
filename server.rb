@@ -9,3 +9,6 @@ end
 get '/index2' do
   File.read(File.join('public','indexOriginal.html'))
 end
+get '/indexnew' do
+  File.read(File.join('public','indexNew.html'))
+end
