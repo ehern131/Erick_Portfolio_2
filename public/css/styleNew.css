@@ -19,6 +19,8 @@ body {
 h5{
   color: #333 !important;
 }
+
+
 span {
   color:#333 !important;
 }
@@ -435,4 +437,28 @@ padding-right: 0px;
   width:100%;
   text-align:center;
   color:#fff;
+}
+.text {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.overlay2:hover .text {
+  opacity: 1;
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
 }
