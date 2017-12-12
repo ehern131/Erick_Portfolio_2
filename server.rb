@@ -1,13 +1,10 @@
 require 'sinatra'
 
 get '/' do
-  File.read(File.join('public','index20171128.html'))
+  File.read(File.join('public','index.html'))
 end
 get '/index' do
-  File.read(File.join('public','index20171128.html'))
-end
-get '/index2' do
-  File.read(File.join('public','indexOriginal.html'))
+  File.read(File.join('public','index.html'))
 end
 get '/indexnew' do
   File.read(File.join('public','indexNew.html'))
