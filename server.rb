@@ -9,3 +9,6 @@ end
 get '/indexnew' do
   File.read(File.join('public','indexNew.html'))
 end
+get '/softwarewest' do
+  File.read(File.join('public','SoftwareWest.html'))
+end
