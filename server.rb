@@ -9,6 +9,6 @@ end
 get '/indexnew' do
   File.read(File.join('public','indexNew.html'))
 end
-get '/skyfinancialmp' do
+get '/skyfinancial' do
   File.read(File.join('public','SkyFinancialMP.html'))
 end
