@@ -435,3 +435,7 @@ padding-right: 0px;
   text-align:center;
   color:#fff;
 }
+
+#swbackground {
+  background-image: url('img/back1.jpg')!important;
+}
