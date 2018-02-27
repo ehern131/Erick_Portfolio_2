@@ -12,6 +12,3 @@ end
 get '/skyfinancial' do
   File.read(File.join('public','SkyFinancialMP.html'))
 end
-get '/skyfinancial2' do
-  File.read(File.join('public','SkyFinancialMP.html'))
-end
