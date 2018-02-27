@@ -17,6 +17,10 @@ body {
   width: 100%;
 }
 
+#swbackground {
+  background-color: #3b3b3e !important;
+}
+
 h5{
   color: #333 !important;
 }
